@@ -8,6 +8,60 @@
     box-sizing: border-box;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .swiper-slide {
+        width: 150px;
+        height: 400px;
+    }
+
+    .swiper-slide-active {
+        width: 250px;
+    }
+
+    .swiper-slide p {
+        font-size: 1rem;
+    }
+
+    #play-pause-button {
+        left: 5%;
+        bottom: 3%;
+        padding: 10px;
+    }
+
+    .audio-icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .swiper-slide {
+        width: 120px;
+        height: 350px;
+    }
+
+    .swiper-slide-active {
+        width: 200px;
+    }
+
+    .swiper-slide p {
+        font-size: 0.9rem;
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 24px;
+    }
+}
+
 body {
     position: relative;
     font-family: "Poppins", sans-serif;

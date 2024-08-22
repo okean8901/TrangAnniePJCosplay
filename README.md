@@ -1,2 +1,0 @@
-# TrangAnniePJCosplay
-# test-pj-annie
